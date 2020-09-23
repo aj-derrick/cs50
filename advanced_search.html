@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="advanced-style.css">
+    </head>
+    <body>
+        
+        <div id="container">
+            <div id="d-title">
+                <label id="title">Advanced Search</label>
+            </div>
+
+            <div id="header">
+                    <a href="index.html">Search</a>
+            </div>
+
+            <form action="https://www.google.com/search" name="f">
+                <div id="bar">
+                    <div id=label-sm>
+                        <div id="sd">
+                            <div>Find pages with...</div>
+                        </div>
+                        <div id="as">
+                            <div>To do this in the search box.</div>
+                        </div>
+                    </div>
+
+                    <div class="search-fields">
+                        <div class="label">
+                            <label for="all">
+                                <div>all these words:</div>
+                            </label>
+                        </div>
+                        <div class="input">
+                            <input class="textinput" id="all" value autofocus name="as_q" type="text">
+                        </div>
+                        <div class="help">
+                            <div>Type the important words: 
+                                <span class="help-small">tri-colour rat terrier</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="search-fields">
+                        <div class="label">
+                            <label for="this">
+                                <div>this exact word or phrase:</div>
+                            </label>
+                        </div>
+                        <div class="input">
+                            <input class="textinput" id="this" value name="as_epq" type="text">
+                        </div>
+                        <div class="help">
+                            <div>Put exact words in quotes: 
+                                <span class="help-small">"rat terrier"</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="search-fields">
+                        <div class="label">
+                            <label for="any">
+                                <div>any of these words:</div>
+                            </label>
+                        </div>
+                        <div class="input">
+                            <input class="textinput" id="any" value name="as_oq" type="text">
+                        </div>
+                        <div class="help">
+                            <div>Type 
+                                <span class="help-sm">OR</span>
+                                between all the words you want:
+                                <span class="help-sm">miniature OR standard</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="search-fields">
+                        <div class="label">
+                            <label for="none">
+                                none of these words:
+                            </label>
+                        </div>
+                        <div class="input">
+                            <input class="textinput" id="none" value name="as_eq" type="text">
+                        </div>
+                        <div class="help">
+                            <div>Put a minus sign before the words you don't want: 
+                                <span class="help-sm">-rodent, -"Jack Russel"</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="submit">
+                        <input value="Advanced Search" type="submit">
+                    </div>
+
+                </div> <!--End of bar-->
+                
+            </form>
+        </div> 
+    </body>
+</html>
